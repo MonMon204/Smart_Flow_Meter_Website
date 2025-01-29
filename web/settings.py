@@ -30,7 +30,6 @@ ALLOWED_HOSTS = ['*', ' 192.168.1.7', '0.0.0.0', '127.0.0.1', 'smartflowmeterweb
 CSRF_TRUSTED_ORIGINS = [ 'smartflowmeterwebsite-production.up.railway.app', 'https://smartflowmeterwebsite-production.up.railway.app']
 
 # Application definition
-
 INSTALLED_APPS = [
     'channels',
 
