@@ -25,7 +25,7 @@ function updateFlowRate() {
 
 const connectionStatusElement = document.getElementById('connectionStatus');
 const statusTextElement = document.getElementById('statusText');
-let url = 'ws://smartflowmeterwebsite-production.up.railway.app/ws/flow/';
+let url = 'wss://smartflowmeterwebsite-production.up.railway.app/ws/flow/';
 let socket = new WebSocket(url);
 
 // const socket = new WebSocket('ws://' + window.location.host + '/ws/somepath/');
