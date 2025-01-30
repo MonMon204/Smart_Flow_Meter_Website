@@ -1,3 +1,3 @@
-gunicorn web.wsgi
-gunicorn web.wsgi --log-file
-python manage.py migrate && gunicorn web.wsg
+uvicorn web.asgi
+uvicorn web.asgi --log-file
+python manage.py migrate && uvicorn web.asgi
